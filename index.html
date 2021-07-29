@@ -16,59 +16,68 @@
 <body>
     <!-- header -->
     <header style="background-color: #264653;">
-        <div class="container  d-flex align-items-center ">
-            <div class="container text-white mt-215 mb-241">
-                <small>Computer-controlled digital transistorized with electronic advance</small>
-                <br>
-                <h1>Honda CBR 300R</h1>
-                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
-                    duis
-                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+        <div class="container">
+            <div class="row  g-3 d-flex  align-items-center justify-content-evenly ">
+                <div class="col-lg-6 col-sm-12 p-5 m-auto ">
+                    <div class="text-white d-flex  pt-5 ps-1  ">
+                        <div class="text-white ps-5">
+                            <small>Computer-controlled digital transistorized with electronic
+                                advance</small>
+                            <br>
+                            <h1>Honda CBR 300R</h1>
+                            <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia
+                                consequat
+                                duis
+                                enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
 
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                    Purchase
-                </button>
+                            <!-- Button trigger modal -->
+                            <button type="button" class="btn btn-danger" data-bs-toggle="modal"
+                                data-bs-target="#exampleModal">
+                                Purchase
+                            </button>
 
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                    aria-hidden="true">
-                    <div class="modal-dialog">
-                        <div class="modal-content text-dark">
-                            <div class="modal-header">
-                                <h5 class="modal-title" id="exampleModalLabel">Honda CBR300R </h5>
-                                <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                    aria-label="Close"></button>
+                            <!-- Modal -->
+                            <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                                aria-hidden="true">
+                                <div class="modal-dialog">
+                                    <div class="modal-content text-dark">
+                                        <div class="modal-header">
+                                            <h5 class="modal-title" id="exampleModalLabel">Honda CBR300R </h5>
+                                            <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                                aria-label="Close"></button>
+                                        </div>
+                                        <div class="modal-body">
+                                            CBR300R
+                                            <br>
+                                            MSRP:$4,799
+                                        </div>
+                                        <div class="modal-footer">
+                                            <button type="button" class="btn btn-secondary"
+                                                data-bs-dismiss="modal">Close</button>
+                                            <button type="button" class="btn btn-primary">Confirm</button>
+                                        </div>
+                                    </div>
+                                </div>
                             </div>
-                            <div class="modal-body">
-                                CBR300R
-                                <br>
-                                MSRP:$4,799
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-                                <button type="button" class="btn btn-primary">Confirm</button>
-                            </div>
+                        </div>
+                        <div class="col-lg-6 col-sm-12 "> <img class="w-100" src="images/header-bike.png" alt="">
                         </div>
                     </div>
                 </div>
-            </div>
-            <div>
-                <img class="ps-155 pb-96" src="images/header-bike.png" alt="">
             </div>
         </div>
     </header>
     <main>
         <!-- feature-bike -->
-        <section class="featured-bike container">
-            <div class="featured-bike-heading text-center mt-5 mb-5">
+        <section class=" container">
+            <div class=" text-center mt-5 mb-5">
                 <h1>Featured Bikes 2021</h1>
                 <h6 style="color: #E76F51;">Best bike collections</h6>
             </div>
-            <div class="image d-flex justify-content-evenly mt-3">
-                <img style="filter: grayscale(100%);" class="w-25" src="images/feature-bike.jpg" alt="">
-                <img class="w-25" src="images/feature-bike.jpg" alt="">
-                <img style="filter: grayscale(100%);" class="w-25" src="images/feature-bike.jpg" alt="">
+            <div class="image d-flex flex-column flex-lg-row justify-content-evenly align-items-center mt-3 ">
+                <img style="filter: grayscale(100%);" class="w-25 mb-5" src="images/feature-bike.jpg" alt="">
+                <img class="w-25 mb-5" src="images/feature-bike.jpg" alt="">
+                <img style="filter: grayscale(100%);" class="w-25 mb-5" src="images/feature-bike.jpg" alt="">
             </div>
         </section>
         <!-- happy client says -->
@@ -223,7 +232,78 @@
                     </div>
                 </div>
             </div>
-
+        </section>
+        <!-- choose bikes by brand -->
+        <section class="container mt-5">
+            <h1 class="mb-5 text-center text-danger">Choose bikes by brands</h1>
+            <!-- cards -->
+            <div class="row row-cols-1 row-cols-md-3 g-5">
+                <div class="col">
+                    <div class="card h-100 bg-dark text-white">
+                        <img src="images/honda-logo/bajaj .jpg" class="card-img-top d-block" alt="...">
+                        <div class="card-body  p-5">
+                            <h6 class="text-center">Bajaj</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-dark text-white">
+                        <img src="images/honda-logo/hero.jpg" class="card-img-top d-block" alt="...">
+                        <div class="card-body  p-5">
+                            <h6 class="text-center">Hero</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-dark text-white">
+                        <img src="images/honda-logo/honda.jpg" class="card-img-top d-block" alt="...">
+                        <div class="card-body  p-5">
+                            <h6 class="text-center">Honda</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-dark text-white">
+                        <img src="images/honda-logo/suzuki-1.jpg" class="card-img-top d-block" alt="...">
+                        <div class="card-body  p-5">
+                            <h6 class="text-center">Sujuki</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-dark text-white">
+                        <img src="images/honda-logo/tvs.jpg" class="card-img-top d-block" alt="...">
+                        <div class="card-body  p-5">
+                            <h6 class="text-center">TVS</h6>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 bg-dark text-white">
+                        <img src="images/honda-logo/yamaha-logo-1.jpg" class="card-img-top d-block " alt="...">
+                        <div class="card-body  p-5">
+                            <h6 class="text-center">Yamaha</h6>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- jump to different pages -->
+        <!-- pagination -->
+        <section class="container mt-5">
+            <nav aria-label="Page navigation example">
+                <ul class="pagination justify-content-center">
+                    <li class="page-item disabled">
+                        <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+                    </li>
+                    <li class="page-item"><a class="page-link" href="#">1</a></li>
+                    <li class="page-item"><a class="page-link" href="#">2</a></li>
+                    <li class="page-item"><a class="page-link" href="#">3</a></li>
+                    <li class="page-item">
+                        <a class="page-link" href="#">Next</a>
+                    </li>
+                </ul>
+            </nav>
         </section>
     </main>
     <!-- script -->
