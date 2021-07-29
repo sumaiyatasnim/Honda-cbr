@@ -9,9 +9,223 @@
     <!-- bootstrap stylesheet -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <!-- font awesome kit link -->
+    <script src="https://kit.fontawesome.com/d854bc7204.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
+    <!-- header -->
+    <header style="background-color: #264653;">
+        <div class="container  d-flex align-items-center ">
+            <div class="container text-white mt-215 mb-241">
+                <small>Computer-controlled digital transistorized with electronic advance</small>
+                <br>
+                <h1>Honda CBR 300R</h1>
+                <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia consequat
+                    duis
+                    enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+
+                <!-- Button trigger modal -->
+                <button type="button" class="btn btn-danger" data-bs-toggle="modal" data-bs-target="#exampleModal">
+                    Purchase
+                </button>
+
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content text-dark">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Honda CBR300R </h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body">
+                                CBR300R
+                                <br>
+                                MSRP:$4,799
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                                <button type="button" class="btn btn-primary">Confirm</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div>
+                <img class="ps-155 pb-96" src="images/header-bike.png" alt="">
+            </div>
+        </div>
+    </header>
+    <main>
+        <!-- feature-bike -->
+        <section class="featured-bike container">
+            <div class="featured-bike-heading text-center mt-5 mb-5">
+                <h1>Featured Bikes 2021</h1>
+                <h6 style="color: #E76F51;">Best bike collections</h6>
+            </div>
+            <div class="image d-flex justify-content-evenly mt-3">
+                <img style="filter: grayscale(100%);" class="w-25" src="images/feature-bike.jpg" alt="">
+                <img class="w-25" src="images/feature-bike.jpg" alt="">
+                <img style="filter: grayscale(100%);" class="w-25" src="images/feature-bike.jpg" alt="">
+            </div>
+        </section>
+        <!-- happy client says -->
+        <section style="margin-top: 160px;" class="container mt-5">
+            <h1 class="text-center mb-5">Happy <span style="color: #E76F51;"> Client Says</span></h1>
+            <!-- cards -->
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                    <div class="card h-100">
+                        <img style="height: 149px; width: 149px; border-radius: 50%;" src="images/user-1.png"
+                            class="card-img-top d-block m-auto my-3" alt="...">
+                        <div class="card-body  p-5">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year..</p>
+                            <p style="color:#E76F51;" class="text-center"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="far fa-star"></i></p>
+                            <h6 class="text-center text-info">Regina Miles</h6>
+                            <h6 class="text-center">Banker</h6>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img style="height: 149px; width: 149px; border-radius: 50%;" src="images/user-2.png"
+                            class="card-img-top d-block m-auto my-3" alt="...">
+                        <div class="card-body  p-5">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year..</p>
+                            <p style="color:#E76F51;" class="text-center"><i class="fas fa-star"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="far fa-star"></i></p>
+                            <h6 class="text-center text-info">Regina Miles</h6>
+                            <h6 class="text-center">Banker</h6>
+                        </div>
+
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100 m-auto">
+                        <img style="height: 149px; width: 149px; border-radius: 50%;" src="images/user-3.jpg"
+                            class="card-img-top rounded-circle d-block m-auto my-3" alt="...">
+                        <div class="card-body  p-5">
+
+                            <p class="card-text">Slate helps you see how
+                                many more days you need
+                                to work to reach your financial
+                                goal for the month and year..</p>
+                            <p style="color:#E76F51;" class="text-center"><i class="fas fa-star px-auto"></i><i
+                                    class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i
+                                    class="far fa-star"></i></p>
+                            <h6 class="text-center text-info">Regina Miles</h6>
+                            <h6 class="text-center">Banker</h6>
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- FAQ -->
+        <section class="container">
+            <h1 class="mt-5 mb-5 text-center">Frequently Asked <span style="color: #E76F51;">Questions</span></h1>
+            <div class="row">
+
+                <div class="image col-lg-6">
+                    <img class="w-75" src="images/faq.png" alt="">
+                </div>
+                <div class="accordion col-lg-6 g-3" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                What are the most important things I should
+                                know about riding a bike?
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Safety First! Always obey the rules of the road. Obey all traffic signals, signs, and
+                                laws. Get in the mindset of “driving” your bike—not just “riding” your bike. This will
+                                help you be a more focused and legally compliant bike rider.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingTwo">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                How can I tell if my helmet is old and I need a
+                                new one?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                If it looks good it is ok, they say to replace if crashed or straps are breached.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                My bike has been in storage is it safe to ride?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Weather also has a lot to do with this, and if you live in a place with harsh winters,
+                                it may be months before you can safely ride your motorcycle. However, you should never
+                                let your motorcycle sit for longer than a month if it has not been properly stored.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingThree">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                What rules should I follow when riding my bike?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree"
+                            data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                Drivers must always check for cyclists before turning right.
+                                Never pass a cyclist prior to making a right turn. Instead, merge before turning.
+                                You may only enter a bike lane to make a right turn within 200 ft of an intersection.
+                                Always leave at least 3ft (or 1.5 meters, depending on your state of residence) of space
+                                between your vehicle and any bicycle you pass. ...
+                                Never try to squeeze past a cyclist who is sharing your lane. Instead, safely change
+                                lanes in order to pass.
+                                Yield to bicycle at intersections, just as you would any other vehicle.
+                                Do not follow a bicycle too closely. If the cyclist stops suddenly or falls in your
+                                path, you may not be able to stop your vehicle in enough time ...
+                                Avoid using high-beam headlights at night when you see a cyclist approaching.
+                                When parked on the side of the street, always check for approaching bicyclists before
+                                opening your car door.
+                                Bicyclists are permitted to drive on certain stretches of freeways. Pass cyclists using
+                                the freeway with extreme caution.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </section>
+    </main>
     <!-- script -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
